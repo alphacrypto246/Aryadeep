@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Dongle:wght@300;400&family=Poppins&display=swap');
 *
 {
     margin: 0;
@@ -7,101 +8,75 @@ body
 {
     height: 100vh;
     width: 100vw;
-    background-image: url(backgroundimgblur.jpg);
-    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?cs=srgb&dl=pexels-sohail-nachiti-807598.jpg&fm=jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: aliceblue;
 }
 .container
 {
     height: 80%;
-    width: 85%;
-    background-image: url(backgroundimg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-height: 100%;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 25%;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #0000007d;
+}
+.image
+{
+    height: 40%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.right-box
+.myimage
 {
-    height: 100%;
-    width: 60%;
+    height: 90%;
+    width: 100%;
+    border: 1px solid purple;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.para
+{
+    height: 40%;
+    width: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
-.left-box
+h2
 {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    font-family: 'Dongle', sans-serif;
+    font-size: 2em;
 }
-.iam
+p
 {
-    height: 100%;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    font-size: 3.5rem;
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    font-family: 'Dongle', sans-serif;
     text-align: center;
-    text-shadow: 2px 4px black;
+    font-size: 1.3em;
+    line-height: 20px;
 }
 .contactus
 {
-    height: 20%;
-    width: 100%;
+    height: 10%;
+    width: 90%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    justify-content: space-evenly;
 }
 a
 {
     text-decoration: none;
-    color: azure;
-    size: 2rem;
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 1px 1px black;
-}
-a:hover
-{
-    border: 4px solid aliceblue;
-    border-radius: 5px;
-    padding: 1%;
-    text-shadow: 2px 2px black;
-}
-.content
-{
-    height: 80%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.para
-{
-    size: 1.2rem;
-    font-family: 'Asap', sans-serif;
-    width: 70%;
-    display: flex;
-    text-align: left;
     color: aliceblue;
-    font-weight: 600;
-    text-shadow: 2px 2px black;
+    font-size: 1rem;
 }
