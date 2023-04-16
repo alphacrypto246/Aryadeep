@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Dongle:wght@300;400&family=Poppins&display=swap');
 *
 {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -27,7 +28,7 @@ body
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: #0000007d;
+    background-color: #000000a6;
 }
 .image
 {
@@ -41,7 +42,6 @@ body
 {
     height: 90%;
     width: 100%;
-    border: 1px solid purple;
     background-color: aliceblue;
     border-radius: 10px;
 }
@@ -117,3 +117,4 @@ a:hover
 {
     border: 1px solid white;
 }
+
