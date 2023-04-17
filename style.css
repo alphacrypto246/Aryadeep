@@ -118,3 +118,53 @@ a:hover
     border: 1px solid white;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+      background-size: auto;
+    }
+    
+    .container {
+      height: 80%;
+      width: 80%;
+      border-radius: 10px;
+    }
+    
+    .image {
+      height: 30%;
+    }
+    
+    .para {
+      height: 50%;
+    }
+    
+    h2 {
+      font-size: 2.5em;
+      text-align: center;
+      line-height: 45px;
+    }
+    
+    p {
+      font-size: 1.2em;
+      line-height: 16px;
+    }
+    
+    .contactus {
+      height: 15%;
+    }
+    
+    a {
+      font-size: 0.8rem;
+    }
+    
+    .facebook,
+    .instagram,
+    .github {
+      height: 20px;
+      width: 60px;
+    }
+    .instagram
+    {
+        width: 65px;
+    }
+  }
+  
