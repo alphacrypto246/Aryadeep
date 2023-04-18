@@ -9,7 +9,6 @@ body
 {
     height: 100vh;
     width: 100vw;
-    background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?cs=srgb&dl=pexels-sohail-nachiti-807598.jpg&fm=jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,6 +16,25 @@ body
     align-items: center;
     justify-content: center;
     color: aliceblue;
+    background-image: linear-gradient(to bottom right, #FFB347, #FFA347, #FF9347);
+    animation: ga 8s ease-in infinite alternate;
+}
+@keyframes ga {
+  0% {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+  }
+  25% {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+  }
+  50% {
+    background: linear-gradient(to right, #f6d365, #fda085);
+  }
+  75% {
+    background: linear-gradient(to right, #00c3ff, #ffff1c);
+  }
+  100% {
+    background-image: linear-gradient(to bottom right, #FFB347, #FFA347, #FF9347);
+  }
 }
 .container
 {
@@ -28,7 +46,8 @@ body
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: #000000a6;
+    background-color: #000000d1;
+    box-shadow: 0px 5px 28px 14px rgba(0, 0, 0, 0.25), 0px 10px 20px rgb(0 0 0 / 54%);;
 }
 .image
 {
@@ -63,7 +82,7 @@ p
 {
     font-family: 'Dongle', sans-serif;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.7em;
     line-height: 20px;
 }
 .contactus
@@ -93,7 +112,7 @@ a
     align-items: center;
     justify-content: center;
 }
-.instagram
+.instagram, .sololearn
 {
     height: 25px;
     width: 85px;
@@ -112,6 +131,10 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.sololearn
+{
+    background: linear-gradient(to right, #2D4059, #3C763D, #EA7317, #8B3E65);  
 }
 a:hover
 {
@@ -144,7 +167,7 @@ a:hover
     }
     
     p {
-      font-size: 1.2em;
+      font-size: 1.5em;
       line-height: 16px;
     }
     
@@ -158,11 +181,12 @@ a:hover
     
     .facebook,
     .instagram,
-    .github {
+    .github,
+    .sololearn {
       height: 20px;
       width: 60px;
     }
-    .instagram
+    .instagram, .sololearn
     {
         width: 65px;
     }
