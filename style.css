@@ -1,190 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Dongle:wght@300;400&family=Poppins&display=swap');
 *
 {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body
 {
     height: 100vh;
     width: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background-color: #1f2937;
     color: aliceblue;
-    background-image: linear-gradient(to bottom right, #FFB347, #FFA347, #FF9347);
-    animation: ga 8s ease-in infinite alternate;
 }
-@keyframes ga {
-  0% {
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-  }
-  25% {
-    background: linear-gradient(to right, #ff9966, #ff5e62);
-  }
-  50% {
-    background: linear-gradient(to right, #f6d365, #fda085);
-  }
-  75% {
-    background: linear-gradient(to right, #00c3ff, #ffff1c);
-  }
-  100% {
-    background-image: linear-gradient(to bottom right, #FFB347, #FFA347, #FF9347);
-  }
-}
-.container
+.navbar
 {
-    height: 80%;
-    width: 25%;
-    border: 2px solid aliceblue;
-    border-radius: 20px;
+    height: 10%;
+    width: 100%;
+    position: sticky;
+    top: 30px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: monospace;
+}
+#imagine
+{
+    color: #008eff;
+    text-shadow: 1px 2px blue;
+}
+#code
+{
+    color: #ff5c5c;
+    text-shadow: 1px 2px red;
+}
+#create
+{
+    color: greenyellow;
+    text-shadow: 1px 2px green;
+}
+.name
+{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5%;
+    font-size: 2rem;
+}
+.punchline
+{
+    height: 100%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
-    background-color: #000000d1;
-    box-shadow: 0px 5px 28px 14px rgba(0, 0, 0, 0.25), 0px 10px 20px rgb(0 0 0 / 54%);;
+    font-size: 2rem;
 }
-.image
+.content
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home
+{
+    border: 10px solid rgb(140 56 252);
+    height: 80%;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#myimage
+{
+    height: 40%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.text
 {
     height: 40%;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.myimage
+.aboutme
 {
-    height: 90%;
-    width: 100%;
-    background-color: aliceblue;
-    border-radius: 10px;
+    border: 10px solid rgb(140 56 252);
+    height: 80%;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .para
 {
-    height: 40%;
+    height: 70%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5em;
+    text-align: center;
+}
+.knowmore
+{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+.books
+{
+    height: 70%;
+    width: 40%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(140 56 252);
+}
+.movies
+{
+    height: 70%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(140 56 252);
+}
+.books, a
+{
+    text-decoration: none;
+    color: white;
+}
+.contactme
+{
+    border: 10px solid rgb(140 56 252);
+    height: 80%;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sm
+{
+    height: 90%;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
 }
-h2
+.sololearn,
+.github,
+.facebook,
+.instagram
 {
-    font-family: 'Dongle', sans-serif;
-    font-size: 2em;
-}
-p
-{
-    font-family: 'Dongle', sans-serif;
-    text-align: center;
-    font-size: 1.7em;
-    line-height: 20px;
-}
-.contactus
-{
-    height: 10%;
+    height: 18%;
     width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-a
-{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 1rem;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-}
-.facebook
-{
-    height: 25px;
-    width: 75px;
-    background: rgb(4 112 229);
-    border: 1px solid rgb(4 112 229);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.instagram, .sololearn
-{
-    height: 25px;
-    width: 85px;
-    background: linear-gradient(to right, #833AB4, #E1306C);
-    border: 1px solid linear-gradient(to right, #833AB4, #E1306C);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.github
-{
-    height: 25px;
-    width: 75px;
-    background-color: rgb(37, 37, 37);
-    border: 1px solid rgb(37, 37, 37);
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .sololearn
 {
-    background: linear-gradient(to right, #2D4059, #3C763D, #EA7317, #8B3E65);  
+    background-color: green;
+    box-shadow: 1px 4px greenyellow, 1px -4px rgb(4, 198, 4);
 }
-a:hover
+.github
 {
-    border: 1px solid white;
+    background-color: black;
+    box-shadow: 1px 4px gray, 1px -4px rgb(67, 67, 67);
 }
-
-@media only screen and (max-width: 768px) {
-    .container {
-      height: 80%;
-      width: 80%;
-      border-radius: 10px;
-    }
-    
-    .image {
-      height: 30%;
-    }
-    
-    .para {
-      height: 50%;
-    }
-    
-    h2 {
-      font-size: 2.5em;
-      text-align: center;
-      line-height: 45px;
-    }
-    
-    p {
-      font-size: 1.5em;
-      line-height: 16px;
-    }
-    
-    .contactus {
-      height: 15%;
-    }
-    
-    a {
-      font-size: 0.8rem;
-    }
-    
-    .facebook,
-    .instagram,
-    .github,
-    .sololearn {
-      height: 20px;
-      width: 60px;
-    }
-    .instagram, .sololearn
-    {
-        width: 65px;
-    }
-  }
-  
+.facebook
+{
+    background-color: blue;
+    box-shadow: 1px 4px rgb(212 212 252), 1px -4px rgb(119 142 255);
+}
+.instagram
+{
+    background-color: #be35e2;
+    box-shadow: 1px 4px rgb(241, 212, 252), 1px -4px rgb(237, 119, 255);
+}
+.footer
+{
+    height: 10%;
+    width: 100%;
+    position: static;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(20 29 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -1px white;
+}
