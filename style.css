@@ -1,4 +1,3 @@
-
 *
 {
     margin: 0;
@@ -193,8 +192,9 @@ body
 }
 .sololearn
 {
-    background-color: green;
-    box-shadow: 1px 4px greenyellow, 1px -4px rgb(4, 198, 4);
+    background: #4f7dc1;
+    background: -webkit-linear-gradient(to right, #4f7dc1, #28b463);
+    background: linear-gradient(to right, #4f7dc1, #28b463);
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 700;
     
@@ -202,19 +202,18 @@ body
 .github
 {
     background-color: black;
-    box-shadow: 1px 4px gray, 1px -4px rgb(67, 67, 67);
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 .facebook
 {
-    background-color: blue;
-    box-shadow: 1px 4px rgb(212 212 252), 1px -4px rgb(119 142 255);
+    background-color: #1877f2;
     font-family: 'Rubik', sans-serif;
 }
 .instagram
 {
-    background-color: #be35e2;
-    box-shadow: 1px 4px rgb(241, 212, 252), 1px -4px rgb(237, 119, 255);
+    background: #405de6;
+    background: -webkit-linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
+    background: linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
     font-family: 'Satisfy', cursive;
     font-weight: bold;
 }
