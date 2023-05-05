@@ -17,11 +17,8 @@ body
 }
 .navbar
 {
-    height: 10%;
+    height: 15%;
     width: 100%;
-    position: sticky;
-    top: 30px;
-    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,7 +60,7 @@ body
 }
 .content
 {
-    height: 80%;
+    height: 75%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -72,7 +69,7 @@ body
 .home
 {
     border: 10px solid rgb(140 56 252);
-    height: 80%;
+    height: 90%;
     width: 30%;
     border-radius: 20px;
     padding: 10px;
@@ -104,7 +101,7 @@ body
 .aboutme
 {
     border: 10px solid rgb(140 56 252);
-    height: 80%;
+    height: 90%;
     width: 30%;
     border-radius: 20px;
     padding: 10px;
@@ -121,7 +118,7 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 2.5em;
+    line-height: 2rem;
     text-align: center;
 }
 .knowmore
@@ -159,7 +156,7 @@ body
 .contactme
 {
     border: 10px solid rgb(140 56 252);
-    height: 80%;
+    height: 90%;
     width: 30%;
     border-radius: 20px;
     padding: 10px;
@@ -230,3 +227,29 @@ body
     justify-content: center;
     box-shadow: 0px -1px white;
 }
+@media screen and (max-width: 480px) 
+{
+    /* Styles for screens up to 480px wide (e.g. smartphones) */
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) 
+{
+/* Styles for screens between 481px and 768px wide (e.g. tablets) */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) 
+{
+/* Styles for screens between 769px and 1024px wide (e.g. small laptops) */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) 
+{
+/* Styles for screens between 1025px and 1200px wide (e.g. large laptops) */
+}
+
+@media screen and (min-width: 1201px) 
+{
+/* Styles for screens wider than 1200px (e.g. desktops) */
+}
+  
