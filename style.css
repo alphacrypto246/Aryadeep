@@ -118,7 +118,7 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-align: center;
 }
 .knowmore
