@@ -1,0 +1,466 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: aliceblue;
+}
+.navbar
+{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: monospace;
+}
+#imagine
+{
+    color: #008eff;
+    text-shadow: 1px 2px blue;
+}
+#code
+{
+    color: #ff5c5c;
+    text-shadow: 1px 2px red;
+}
+#create
+{
+    color: greenyellow;
+    text-shadow: 1px 2px green;
+}
+.name
+{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5%;
+    font-size: 2rem;
+}
+.punchline
+{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+.content
+{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home
+{
+    border: 10px solid rgb(140 56 252);
+    height: 90%;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#myimage
+{
+    height: 40%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.text
+{
+    height: 40%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutme
+{
+    border: 10px solid rgb(140 56 252);
+    height: 90%;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para
+{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    text-align: center;
+}
+.knowmore
+{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+.books
+{
+    height: 70%;
+    width: 40%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(140 56 252);
+}
+.movies
+{
+    height: 70%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(140 56 252);
+}
+.books, a
+{
+    text-decoration: none;
+    color: white;
+}
+.contactme
+{
+    border: 10px solid rgb(140 56 252);
+    height: 90%;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sm
+{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sololearn,
+.github,
+.facebook,
+.instagram
+{
+    height: 18%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.sololearn
+{
+    background: #4f7dc1;
+    background: -webkit-linear-gradient(to right, #4f7dc1, #28b463);
+    background: linear-gradient(to right, #4f7dc1, #28b463);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    
+}
+.github
+{
+    background-color: black;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.facebook
+{
+    background-color: #1877f2;
+    font-family: 'Rubik', sans-serif;
+}
+.instagram
+{
+    background: #405de6;
+    background: -webkit-linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
+    background: linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+.footer
+{
+    height: 10%;
+    width: 100%;
+    position: static;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(20 29 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -1px white;
+}
+@media screen and (max-width: 480px) 
+{
+    /* Styles for screens up to 480px wide (e.g. smartphones) */
+    *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: aliceblue;
+}
+.navbar
+{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imagine
+{
+    color: #008eff;
+    text-shadow: 1px 2px blue;
+}
+#code
+{
+    color: #ff5c5c;
+    text-shadow: 1px 1.5px red;
+}
+#create
+{
+    color: greenyellow;
+    text-shadow: 1px 2px green;
+}
+.name
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.punchline
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+.content
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid violet;
+}
+.home
+{
+    border: 2px solid rgb(140 56 252);
+    height: 30%;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img
+{
+    height: 100px;
+    width: 100PX;
+}
+.aboutme
+{
+    border: 2px solid rgb(140 56 252);
+    height: 40%;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para
+{
+    font-size: .6rem;
+    height: 89%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4em;
+    text-align: center;
+}
+.knowmore
+{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: .7rem;
+}
+.books
+{
+    height: 40%;
+    width: 80%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(140 56 252);
+}
+.movies
+{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(140 56 252);
+}
+.books, a
+{
+    text-decoration: none;
+    color: white;
+}
+.contactme
+{
+    border: 2px solid rgb(140 56 252);
+    height: 20%;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sm
+{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.sololearn,
+.github,
+.facebook,
+.instagram
+{
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+}
+.sololearn
+{
+    background: #4f7dc1;
+    background: -webkit-linear-gradient(to right, #4f7dc1, #28b463);
+    background: linear-gradient(to right, #4f7dc1, #28b463);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    
+}
+.github
+{
+    background-color: black;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.facebook
+{
+    background-color: #1877f2;
+    font-family: 'Rubik', sans-serif;
+}
+.instagram
+{
+    background: #405de6;
+    background: -webkit-linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
+    background: linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+.footer
+{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(20 29 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -1px white;
+    font-size: .8rem;
+}
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) 
+{
+/* Styles for screens between 481px and 768px wide (e.g. tablets) */
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) 
+{
+/* Styles for screens between 769px and 1024px wide (e.g. small laptops) */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) 
+{
+/* Styles for screens between 1025px and 1200px wide (e.g. large laptops) */
+}
+
+@media screen and (min-width: 1201px) 
+{
+/* Styles for screens wider than 1200px (e.g. desktops) */
+}
+  
