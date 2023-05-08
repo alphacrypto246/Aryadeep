@@ -296,7 +296,6 @@ body
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    border: 2px solid violet;
 }
 .home
 {
