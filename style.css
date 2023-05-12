@@ -1,466 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Dongle:wght@300;400&family=Poppins&display=swap');
 *
 {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body
 {
     height: 100vh;
     width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #1f2937;
-    color: aliceblue;
-}
-.navbar
-{
-    height: 15%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: monospace;
-}
-#imagine
-{
-    color: #008eff;
-    text-shadow: 1px 2px blue;
-}
-#code
-{
-    color: #ff5c5c;
-    text-shadow: 1px 2px red;
-}
-#create
-{
-    color: greenyellow;
-    text-shadow: 1px 2px green;
-}
-.name
-{
-    height: 100%;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-left: 5%;
-    font-size: 2rem;
-}
-.punchline
-{
-    height: 100%;
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 2rem;
-}
-.content
-{
-    height: 75%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.home
-{
-    border: 10px solid rgb(140 56 252);
-    height: 90%;
-    width: 30%;
-    border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-}
-#myimage
-{
-    height: 40%;
-    width: 90%;
-    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?cs=srgb&dl=pexels-sohail-nachiti-807598.jpg&fm=jpg);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px;
-}
-.text
-{
-    height: 40%;
-    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    font-size: 3rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.aboutme
-{
-    border: 10px solid rgb(140 56 252);
-    height: 90%;
-    width: 30%;
-    border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.para
-{
-    height: 70%;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-    text-align: center;
-}
-.knowmore
-{
-    height: 20%;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1.2rem;
-}
-.books
-{
-    height: 70%;
-    width: 40%;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid rgb(140 56 252);
-}
-.movies
-{
-    height: 70%;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid rgb(140 56 252);
-}
-.books, a
-{
-    text-decoration: none;
-    color: white;
-}
-.contactme
-{
-    border: 10px solid rgb(140 56 252);
-    height: 90%;
-    width: 30%;
-    border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-.sm
-{
-    height: 90%;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-.sololearn,
-.github,
-.facebook,
-.instagram
-{
-    height: 18%;
-    width: 90%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-}
-.sololearn
-{
-    background: #4f7dc1;
-    background: -webkit-linear-gradient(to right, #4f7dc1, #28b463);
-    background: linear-gradient(to right, #4f7dc1, #28b463);
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: 700;
-    
-}
-.github
-{
-    background-color: black;
-    font-family: 'Fira Sans Condensed', sans-serif;
-}
-.facebook
-{
-    background-color: #1877f2;
-    font-family: 'Rubik', sans-serif;
-}
-.instagram
-{
-    background: #405de6;
-    background: -webkit-linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
-    background: linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
-    font-family: 'Satisfy', cursive;
-    font-weight: bold;
-}
-.footer
-{
-    height: 10%;
-    width: 100%;
-    position: static;
-    left: 0;
-    bottom: 0;
-    background-color: rgb(20 29 41);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px -1px white;
-}
-@media screen and (max-width: 480px) 
-{
-    /* Styles for screens up to 480px wide (e.g. smartphones) */
-    *
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body
-{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #1f2937;
     color: aliceblue;
 }
-.navbar
-{
-    height: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#imagine
-{
-    color: #008eff;
-    text-shadow: 1px 2px blue;
-}
-#code
-{
-    color: #ff5c5c;
-    text-shadow: 1px 1.5px red;
-}
-#create
-{
-    color: greenyellow;
-    text-shadow: 1px 2px green;
-}
-.name
-{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-}
-.punchline
-{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1rem;
-}
-.content
+.container
 {
     height: 80%;
-    width: 100%;
+    width: 25%;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    border: 2px solid violet;
+    background-color: #000000a6;
 }
-.home
+.image
 {
-    border: 2px solid rgb(140 56 252);
-    height: 30%;
-    width: 90%;
-    border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-img
-{
-    height: 100px;
-    width: 100PX;
-}
-.aboutme
-{
-    border: 2px solid rgb(140 56 252);
     height: 40%;
     width: 90%;
-    border-radius: 20px;
-    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.myimage
+{
+    height: 90%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
 .para
 {
-    font-size: .6rem;
-    height: 89%;
-    width: 60%;
+    height: 40%;
+    width: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    line-height: 1.4em;
-    text-align: center;
-}
-.knowmore
-{
-    height: 90%;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
-    font-size: .7rem;
 }
-.books
+h2
 {
-    height: 40%;
-    width: 80%;    
+    font-family: 'Dongle', sans-serif;
+    font-size: 2em;
+}
+p
+{
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 20px;
+}
+.contactus
+{
+    height: 10%;
+    width: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 3px solid rgb(140 56 252);
+    justify-content: space-evenly;
 }
-.movies
-{
-    height: 40%;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid rgb(140 56 252);
-}
-.books, a
+a
 {
     text-decoration: none;
-    color: white;
-}
-.contactme
-{
-    border: 2px solid rgb(140 56 252);
-    height: 20%;
-    width: 90%;
-    border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sm
-{
-    height: 100%;
-    width: 100%;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-}
-.sololearn,
-.github,
-.facebook,
-.instagram
-{
-    height: 80%;
-    width: 90%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: .7rem;
-}
-.sololearn
-{
-    background: #4f7dc1;
-    background: -webkit-linear-gradient(to right, #4f7dc1, #28b463);
-    background: linear-gradient(to right, #4f7dc1, #28b463);
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: 700;
-    
-}
-.github
-{
-    background-color: black;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
 }
 .facebook
 {
-    background-color: #1877f2;
-    font-family: 'Rubik', sans-serif;
-}
-.instagram
-{
-    background: #405de6;
-    background: -webkit-linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
-    background: linear-gradient(to right, #405de6, #833ab4, #f56040, #ffc048, #ffcd80);
-    font-family: 'Satisfy', cursive;
-    font-weight: bold;
-}
-.footer
-{
-    height: 10%;
-    width: 100%;
-    background-color: rgb(20 29 41);
+    height: 25px;
+    width: 75px;
+    background: rgb(4 112 229);
+    border: 1px solid rgb(4 112 229);
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px -1px white;
-    font-size: .8rem;
 }
-    
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) 
+.instagram
 {
-/* Styles for screens between 481px and 768px wide (e.g. tablets) */
-
+    height: 25px;
+    width: 85px;
+    background: linear-gradient(to right, #833AB4, #E1306C);
+    border: 1px solid linear-gradient(to right, #833AB4, #E1306C);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) 
+.github
 {
-/* Styles for screens between 769px and 1024px wide (e.g. small laptops) */
+    height: 25px;
+    width: 75px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover
+{
+    border: 1px solid white;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px) 
-{
-/* Styles for screens between 1025px and 1200px wide (e.g. large laptops) */
-}
-
-@media screen and (min-width: 1201px) 
-{
-/* Styles for screens wider than 1200px (e.g. desktops) */
-}
-  
